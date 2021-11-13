@@ -13,7 +13,8 @@ Just another tool to interact with the [Windows User Objects](https://docs.micro
 
 ![Main Window](Screenshots/Main.png)
 
-For advanced use cases, list the menus / windows and select them. A new window will open.
+Advanced Use Case
+List the menus / windows and select them from the listbox. A new window will open.
 ![Main Window](Screenshots/Window.png)
 
 ## Why Jane
