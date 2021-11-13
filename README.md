@@ -1,5 +1,5 @@
 # Jane (Just ANother Enabler)
-Just another tool to interact with the [Windows User Objects](https://docs.microsoft.com/en-us/windows/win32/sysinfo/user-objects) of another Application. 
+Just another tool to interact with the [Windows User Objects](https://docs.microsoft.com/en-us/windows/win32/sysinfo/user-objects) of another application. 
 * Window manipulation (e.g. enabling buttons / changing a window title) 
 * Menu manipulation (e.g. enabling menus / highlighting menu items)
 
@@ -17,11 +17,12 @@ For advanced use cases, list the menus / windows and select them. A new window w
 ![Main Window](Screenshots/Window.png)
 
 ## Why Jane
-There are several other applications with somewhat similar capabilities (`Enabler`, `Enable!`, `Windows Enabler`, `Daanav Enabler`, `Spy++`, ... you name it). 
-However, during one of our penetration tests, we encountered an application where these tools proved ineffective: The application under test was re-rendering GUI elements as soon as the focus was received and all previously performed manipulations were invalidated. Neither did defined shortcuts work to enable windows. Therefore, the need for Just ANother Enabler with a delay functionality was born.
 * Single executable
 * Open source
 * Delayed execution of actions
+
+There are several other applications with somewhat similar capabilities (`Enabler`, `Enable!`, `Windows Enabler`, `Daanav Enabler`, `Spy++`, ... you name it). 
+During one of our penetration tests, we encountered an application where these tools proved ineffective: The application under test was re-rendering GUI elements as soon as the focus was received and all previously performed manipulations were invalidated. Neither did defined shortcuts work in the scenario. Therefore, the need for Just ANother Enabler with a delay functionality was born.
 
 ## Compile Instructions
 Jane is written using C# 8.0 features. To easily compile this project, use Visual Studio 2019.
