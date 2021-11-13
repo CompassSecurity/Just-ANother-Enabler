@@ -1,5 +1,5 @@
 # Jane (Just ANother Enabler)
-Just another tool to interact with the [Windows User Objects](https://docs.microsoft.com/en-us/windows/win32/sysinfo/user-objects) of another application. 
+Just another tool to interact with the [Windows User Objects](https://docs.microsoft.com/en-us/windows/win32/sysinfo/user-objects) of an application. 
 * Window manipulation (e.g. enabling buttons / changing a window title) 
 * Menu manipulation (e.g. enabling menus / highlighting menu items)
 
