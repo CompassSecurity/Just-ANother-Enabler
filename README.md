@@ -28,4 +28,6 @@ During one of our penetration tests, we encountered an application where these t
 Jane is written using C# 8.0 features. To easily compile this project, use Visual Studio 2019.
 
 ## Notes
-This is a test tool and only basic error handling is implemented.
+This is a test tool.
+* Only basic error handling is implemented
+* There will probably be some bugs
